@@ -17,10 +17,16 @@
     + 1.3.4 `Git` 설치
     + 1.3.5 `Create-React-app`으로 프로젝트 생성
 
-+ 2장 추후 작성 -->
++ 2장 **JSX**
+  + 2.1 코드 이해하기
+  + 2.2 `JSX` 란?
+  + 2.3 `JSX`의 장점
+    + 2.3.1 보기 쉽고 익숙하다.
+    + 2.3.2 더욱 높은 활용도
+  + 2.4 JSX 문법
 ___
 
 #### 공부하며 참고 하기 좋은 사이트 🌳
   + [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us)
   + [MDN 자바스크립트 첫걸음](https://developer.mozilla.org/ko/docs/Learn/Javascript)
-  + [React 기술 용어 모음](https://ko.reactjs.org/docs/glossary.html)
+  + [React 기술 용어 모음](https://ko.reactjs.org/docs/glossary.htmlㄴ)
