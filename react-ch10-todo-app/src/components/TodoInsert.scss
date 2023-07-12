@@ -1,0 +1,44 @@
+// Todo Insert CSS
+
+.TodoInsert {
+    display: flex;
+    background: #495057;
+    
+    // input 기본 스타일 초기화
+    input {
+        background: none;
+        outline: none;
+        border: none;
+        padding: 0.5rem;
+        font-size: 1.125rem;
+        line-height: 1.5;
+        color: white;
+        // input 예시 텍스트 색상 설정
+        &::placeholder {
+            color : #dee2e6;
+        }
+
+        // 버튼을 제외한 영역 모두 차지
+        flex : 1;
+    }
+
+    // 버튼의 스타일 지정
+    button {
+        background: none;
+        outline: none;
+        border: none;
+        background : #868e96;
+        color : white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        // 버튼 애니메이션 지정
+        transition: 0.2s background ease-in;
+        &:hover {
+            background: #465b73;
+        }
+    }
+}
