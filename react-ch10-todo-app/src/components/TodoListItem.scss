@@ -1,11 +1,20 @@
+.TodoListItem-virtualized {
+    // 엘레먼트 각 요소 사이에 테두리를 넣어준다.
+    & + & {
+        border-top: 1px solid #dee2e6;
+    }
+
+    &:nth-child(even) {
+        background: #f8f9fa;
+    }
+}
+
 .TodoListItem {
     padding: 1rem;
     display: flex;
     align-items : center;
     // 짝수 요소에 흰색 배경을 입혀준다.
-    &:nth-child(even) {
-        background: #f8f9fa;
-    }
+
 
     .checkbox {
         cursor: pointer;
@@ -46,10 +55,5 @@
         &:hover {
             color : #f84f4f;
         }
-    }
-
-    // 엘레먼트 각 요소 사이에 테두리를 넣어준다.
-    & + & {
-        border-top: 1px solid #dee2e6;
     }
 }
